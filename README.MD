@@ -1,6 +1,7 @@
 **This file is of markdown format or whatever**
 
-<h1>It is dedicated to this project of getting back in the game bitch</h1>
+<h1>It is dedicated to this project of getting back in the  boss</h1>
+## This is coming from dev-1  
 ## This is coming from dev-2  
 //Trying stuff//
 
