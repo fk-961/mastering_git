@@ -1,6 +1,7 @@
 **This file is of markdown format or whatever**
 
-<h1>It is dedicated to this project of getting back in the game</h1>
+<h1>It is dedicated to this project of getting back in the game bitch</h1>
+## This is coming from dev-2  
 //Trying stuff//
 
 So when we create a local rep we want to link the project to the cloud so everyone can access it, to do this we have to:
