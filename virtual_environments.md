@@ -15,6 +15,6 @@ To activate an environment, on windows we use <code>env_name\Scripts\activate.ps
 
 Now when someone clones a repo on their machine, all they have to do is create a new virtual environment and then run <code>pip install -r requirements.txt</code>.
 
-We can also specify the name of the virtual environment in the requirements file.
+We can also specify the name of the virtual environment in the requirements file. Something to also note is when creating an environment it creates a folder that contains all the libraries and dependencies in it. I think it is best to create the environment outside our repo since we dont wanna be tracking the files through git. We can specify to ignore these files in .gitignore if we are sure the virtual environment's name is always going to be venv for example so we specify venv/.
 
 A nice example we did here is we needed the ipykernel package to run jupyter notebook which some people might not have.
