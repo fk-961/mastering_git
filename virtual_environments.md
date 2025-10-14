@@ -16,3 +16,5 @@ To activate an environment, on windows we use <code>env_name\Scripts\activate.ps
 Now when someone clones a repo on their machine, all they have to do is create a new virtual environment and then run <code>pip install -r requirements.txt</code>.
 
 We can also specify the name of the virtual environment in the requirements file.
+
+A nice example we did here is we needed the ipykernel package to run jupyter notebook which some people might not have.
