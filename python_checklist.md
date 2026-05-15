@@ -7,12 +7,18 @@
     [i,j,k] for i in range(x) for j in range(y) for k in range(z)
 ]` returns list of permutations
 
-## sets and sorts
-`set()` returns an unordered list of unique values.
+## List functions
+`set()` returns an unordered list of unique values. Applying the set functions return an arbitrary order everytime.
 
 `list.sort()` modifies the list by sorting its elemts.
 
 `sorted(list)` return a sorted version of the argument. It has a reverse parameter `reverse` for the sorting order.
+
+Other useful functions:
+
+- `l.insert(index, element)`: straightforward.
+- `l.remove(element)`: removes first occurence of element.
+- `l.pop()`: removes last element.
 
 **Note:** 
 - When using `set()` on a dictionary it returns a set of the keys.
