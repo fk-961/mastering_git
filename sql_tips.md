@@ -58,3 +58,4 @@ SELECT
     ) AS completed_orders
 FROM orders;
 ```
+We can use FILTER instead of case when like this: something filter (when condition)
