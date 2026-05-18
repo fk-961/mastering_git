@@ -13,6 +13,7 @@ ORDER BY
 LIMIT
 ```
 **So let's say we select `column1` as `col_1`, we can't use the alias in the `WHERE` clause.**
+**!!! In some languages, we can use aliases created in SELECT in the GROUP BY !!!**
 
 ## WHERE vs HAVING
 WHERE filters rows before grouping while having filters it after. That's why we can't use for example avg(col) in a where clause most of the time because the group by did not happen yet. If we need the average of a column without grouping by we need to have a select subquery that returns it.
